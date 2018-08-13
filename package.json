@@ -1,0 +1,57 @@
+{
+  "homepage": "https://phmngocnghia.github.io/react-bounce-checkbox",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PhmNgocNghia/react-bounce-checkbox"
+  },
+  "author": {
+    "name": "Pham Ngoc Nghia",
+    "email": "phmngocnghia@gmail.com",
+    "url": "https://phmngocnghia.github.io"
+  },
+  "main": "./dist",
+  "name": "react-bounce-checkbox",
+  "version": "0.1.0",
+  "description": "a beatiful react checkbox component with bounce and material animation.",
+  "keywords": [
+    "checkbox",
+    "checkbox animation",
+    "beatiful checkbox",
+    "react checkbox"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "styled-components": "^3.4.2"
+  },
+  "scripts": {
+    "start": "npm-run-all -p watch-css start-js",
+    "build-example": "npm-run-all build-css build-js",
+    "build-library": "NODE_ENV=production gulp",
+    "test": "react-scripts test --env=jsdom",
+    "build-plugin": "",
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "build-js": "react-scripts build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "del": "^3.0.0",
+    "enzyme": "^3.4.1",
+    "enzyme-adapter-react-16": "^1.2.0",
+    "enzyme-to-json": "^3.3.4",
+    "gh-pages": "^1.2.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-copy": "^1.1.0",
+    "gulp-run": "^1.7.1",
+    "node-sass-chokidar": "^1.3.3",
+    "npm-run-all": "^4.1.3",
+    "react-scripts": "1.1.4"
+  }
+}
