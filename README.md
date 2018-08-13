@@ -1,5 +1,6 @@
 # Demo
-![Demo gif](https://media.giphy.com/media/dScWCbaE6IaZZCpFn1/giphy.gif)
+![Demo gif](https://i.imgur.com/QJJRMKz.gif)
+
 [Demo page](https://phmngocnghia.github.io/react-bounce-checkbox)
 
 # Usage
