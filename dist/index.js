@@ -113,3 +113,4 @@ BouncyCheckbox.propTypes = {
   className: PropTypes.string
 };
 export default BouncyCheckbox;
+//# sourceMappingURL=index.js.map
