@@ -20,7 +20,6 @@
     "react checkbox"
   ],
   "license": "MIT",
-  "private": true,
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",

@@ -16,9 +16,14 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">
-            React Bouncy Checkbox
-          </h1>
+            <div>
+              <a href="https://github.com/PhmNgocNghia/react-bounce-checkbox" className="App-title">
+                React Bouncy Checkbox
+              </a>
+            </div>
+          <div>
+            Created by <a href="https://phmngocnghia.github.io">PhmNgocNghia</a>
+          </div>
         </header>
         <div className="App-intro">
           {['blue',

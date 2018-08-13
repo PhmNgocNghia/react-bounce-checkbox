@@ -1,5 +1,6 @@
 # Demo
-[Demo page](https://phmngocnghia.github.io/react-bounce-checkbo)
+[Demo page](https://phmngocnghia.github.io/react-bounce-checkbox)
+![Demo gif](https://media.giphy.com/media/t6zsCHNJwN7TXiRmCz/200w_d.gif)
 
 # Usage
 Install `npm install -S react-bounce-checkbox`

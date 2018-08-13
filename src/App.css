@@ -1,5 +1,21 @@
 .App {
   text-align: center;
+  font-family: 'Muli', sans-serif;
+  letter-spacing: 2px;
+}
+
+.App-header div {
+  margin-top: 10px;
+  font-family: 'Lobster', cursive;
+}
+
+.App-header a {
+  color: white;
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: underline
 }
 
 .App-logo {
